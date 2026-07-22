@@ -1,10 +1,13 @@
-# Week 1: FastAPI App
-Simple FastAPI application configured with environment variables.
+# Week 2: FastAPI App
+Simple FastAPI application configured with tasks and environment variables.
 ## Files
-- `main.py`: Main application code
-- `requirements.txt`: Project dependencies
-- `.env`: Environment variables
+ `.env`: Environment variables
+ `README.md`: Project documentation
+ `main.py1`: Task 1 code
+ `main.py2`: Task 2 code
+ `requirements.txt`: Project dependencies
+ `test.db`: SQLite database
 ## How to Run
 ```bash
 pip install -r requirements.txt
-uvicorn main:app --reload
+uvicorn main.py2:app --reload
