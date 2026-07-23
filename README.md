@@ -19,5 +19,4 @@ Simple FastAPI application configured with tasks, environment variables, Postgre
 
 ## How to Run with Docker<br>
 ```bash
-<br>
 docker compose up --build
